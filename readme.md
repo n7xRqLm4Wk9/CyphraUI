@@ -9,7 +9,7 @@
 
 ### Method 1 — loadstring (recommended)
 ```lua
-local LuxwareUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/yourrepo/LuxwareUI/main/library.lua"))()
+local LuxwareUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/n7xRqLm4Wk9 /LuxwareUI/main/library.lua"))()
 ```
 
 ### Method 2 — Local file
@@ -394,7 +394,7 @@ Window:Destroy()
 ## 💡 Full Example Script
 
 ```lua
-local LuxwareUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/yourrepo/LuxwareUI/main/library.lua"))()
+local LuxwareUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/n7xRqLm4Wk9/LuxwareUI/main/library.lua"))()
 
 local Window = LuxwareUI:CreateWindow({
     Name         = "Luxware Hub",
